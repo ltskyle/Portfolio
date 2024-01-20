@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal'
-import heroImgMobile from '../../../public/assets/img/hero/img-mobile.jpg'
+// import heroImgMobile from '../../../public/assets/img/hero/img-mobile.jpg'
 import cancelImg from '../../../public/assets/img/cancel.svg'
 import AboutMain from '../about'
 import Image from 'next/image'
 
 const heroContent = {
     heroImage: '/assets/img/hero/dark.jpg',
-    heroMobileImage: heroImgMobile,
+    heroMobileImage: '/assets/img/hero/img-mobile.jpg',
     heroTitleName: 'Kyle Knudson',
     heroDesignation: 'Software Developer',
     heroDescriptions: `I am currently in the Accelerated Masters Program specializing in Management Information Systems at The University of Alabama.`,
@@ -33,7 +33,8 @@ const Hero = () => {
                             src={heroContent.heroMobileImage}
                             className='img-fluid main-img-mobile d-sm-block d-lg-none'
                             alt='hero man'
-                            // style={{width:'100%',height:'100%'}}
+                            width={300} // Set the width of the image here
+                            height={300}
                         />
                         <h1
                             id='home-name'

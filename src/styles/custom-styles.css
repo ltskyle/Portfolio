@@ -1,3 +1,9 @@
 #home-name {
     font-size: 38px;
 }
+
+@media (max-width: 767px) {
+    #home-name {
+        font-size: 30px;
+    }
+}
