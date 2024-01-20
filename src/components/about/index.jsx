@@ -46,6 +46,7 @@ const index = () => {
                                     href={'files/KnudsonKyleResume.pdf'}
                                     download
                                     target='_blank'
+                                    rel='noopener noreferrer'
                                 >
                                     <span className='button-text'>
                                         Download CV
