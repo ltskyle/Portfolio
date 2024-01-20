@@ -33,7 +33,7 @@ const Hero = () => {
                             src={heroContent.heroMobileImage}
                             className='img-fluid main-img-mobile d-sm-block d-lg-none'
                             alt='hero man'
-                            width={300} // Set the width of the image here
+                            width={300}
                             height={300}
                         />
                         <h1
@@ -78,7 +78,7 @@ const Hero = () => {
                                 <h1>
                                     ABOUT <span>ME</span>
                                 </h1>
-                                <span className='title-bg'>Resume</span>
+                                <span className='title-bg'>ABOUT ME</span>
                             </div>
                             {/* End title */}
                             <AboutMain />

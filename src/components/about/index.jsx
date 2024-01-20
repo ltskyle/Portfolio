@@ -31,6 +31,8 @@ const index = () => {
                                     src={heroImgMobile}
                                     className='img-fluid main-img-mobile'
                                     alt='about avatar'
+                                    width={300}
+                                    height={300}
                                 />
                             </div>
                             {/* image for mobile menu */}
