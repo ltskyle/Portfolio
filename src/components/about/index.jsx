@@ -21,19 +21,19 @@ const index = () => {
                         <div className='row'>
                             <div className='col-12'>
                                 <h3 className='text-uppercase custom-title mb-0 ft-wt-600'>
-                                    personal infos
+                                    personal info
                                 </h3>
                             </div>
                             {/* End .col */}
 
                             <div className='col-12 d-block d-sm-none'>
-                                <Image
+                                {/* <Image
                                     src={heroImgMobile}
                                     className='img-fluid main-img-mobile'
                                     alt='about avatar'
                                     width={300}
                                     height={300}
-                                />
+                                /> */}
                             </div>
                             {/* image for mobile menu */}
 
