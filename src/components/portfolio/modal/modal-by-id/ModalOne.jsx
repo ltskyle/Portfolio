@@ -64,6 +64,7 @@ const ModalOne = ({ modalId, setGetModal }) => {
                                     onClick={() => setGetModal(false)}
                                 >
                                     <Image
+                                        id='close-x'
                                         src={CloseImg}
                                         alt='portfolio project demo'
                                     />
