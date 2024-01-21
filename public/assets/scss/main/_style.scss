@@ -848,6 +848,29 @@ body.light .header ul.icon-menu li.icon-box:hover i {
     opacity: 0.8;
 }
 
+.icon {
+    background: none; /* Removes any background color */
+    border: none; /* Removes any border */
+    border-radius: 0; /* Resets any rounded corners */
+    /* Additional resets if needed */
+    padding: 0;
+    margin: 0;
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+}
+
+.icon::before,
+.icon::after {
+    content: none; /* Removes pseudo-elements if they exist */
+}
+
+.icon img {
+    /* If you need to specifically style the image */
+    display: block; /* Removes any inline spacing */
+    max-width: 100%; /* Ensures image is responsive within the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
 /* Skills */
 
 .about .c100 {
