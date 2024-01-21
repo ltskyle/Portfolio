@@ -78,7 +78,7 @@ const Hero = () => {
                                 <h1>
                                     ABOUT <span>ME</span>
                                 </h1>
-                                <span className='title-bg'>ABOUT ME</span>
+                                {/* <span className='title-bg'>ABOUT ME</span> */}
                             </div>
                             {/* End title */}
                             <AboutMain />
