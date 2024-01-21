@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import Hero from '../components/hero/Hero'
 import AboutMain from '../components/about'
@@ -8,7 +8,6 @@ import Portfolio from '../components/portfolio/Portfolio'
 import Address from '../components/Address'
 import Social from '../components/Social'
 import SwitchDark from '../components/switch/SwitchDark'
-import React, { useEffect, useRef } from 'react'
 
 const menuItem = [
     { icon: 'fa-home', menuName: 'Home' },
