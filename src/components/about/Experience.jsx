@@ -6,21 +6,21 @@ const experienceContent = [
         position: ' Programming Teaching Assistant',
         companyName: 'UA MIS',
         details: `  Facilitate instruction in C# programming, providing technical evaluations and support to over 100 students each semester`,
-        logo: `/assets/img/logos/ua.png`,
+        logo: '/assets/img/logos/ua.png',
     },
     {
         year: '2023 - 2023',
         position: ' Business Systems Analyst',
         companyName: 'Protective Life',
         details: `Spearheaded system requirement compilation and communication, efficiently facilitating the transition of over 500,000 policies`,
-        logo: `/assets/img/logos/pl.png`,
+        logo: '/assets/img/logos/pl.png',
     },
     {
         year: '2020 - 2023',
         position: 'Assistant Area Manager',
         companyName: 'Dairy Queen',
         details: `Supported General Managers by overseeing operations, facilitating streamlined processes, and achieving performance metrics`,
-        logo: `/assets/img/logos/dq.png`,
+        logo: '/assets/img/logos/dq.png',
     },
 ]
 
