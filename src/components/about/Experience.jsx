@@ -31,7 +31,12 @@ const Experience = () => {
             {experienceContent.map((val, i) => (
                 <li key={i}>
                     <div className='icon'>
-                        <Image src={val.logo} alt={`${val.companyName} Logo`} />
+                        <Image
+                            src={val.logo}
+                            alt={`${val.companyName} Logo`}
+                            width={300}
+                            height={300}
+                        />
                     </div>
                     <span className='time open-sans-font text-uppercase'>
                         {val.year}
