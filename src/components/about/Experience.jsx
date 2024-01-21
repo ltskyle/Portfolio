@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
+server.use(express.static(path.join(__dirname, 'public')))
+
 const experienceContent = [
     {
         year: '   2023 - Present',
