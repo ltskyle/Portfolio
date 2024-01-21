@@ -46,12 +46,16 @@ const Hero = () => {
                         <p className='open-sans-font'>
                             {heroContent.heroDescriptions}
                         </p>
-                        <button className='button' onClick={toggleModalOne}>
-                            <span className='button-text'>
-                                {heroContent.heroBtn}
-                            </span>
-                            <span className='button-icon fa fa-arrow-right'></span>
-                        </button>
+                        <a
+                            className='button'
+                            href={'files/KnudsonKyleResume.pdf'}
+                            download
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <span className='button-text'>Download CV</span>
+                            <span className='button-icon fa fa-download'></span>
+                        </a>
                     </div>
                 </div>
             </div>
