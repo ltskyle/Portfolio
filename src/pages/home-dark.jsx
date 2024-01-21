@@ -8,6 +8,7 @@ import Portfolio from '../components/portfolio/Portfolio'
 import Address from '../components/Address'
 import Social from '../components/Social'
 import SwitchDark from '../components/switch/SwitchDark'
+import React, { useEffect, useRef } from 'react'
 
 const menuItem = [
     { icon: 'fa-home', menuName: 'Home' },
