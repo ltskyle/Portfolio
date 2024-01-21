@@ -31,11 +31,11 @@ const HomeDark = () => {
         <Wrapper>
             <SEO pageTitle={'Home Dark'} />
 
-            <div className='yellow'>
+            <div className='yellow' ref={ref}>
                 <SwitchDark />
                 {/* End Switcher */}
                 <Tabs>
-                    <div className='header' ref={topRef}>
+                    <div className='header'>
                         <TabList className=' icon-menu  revealator-slideup revealator-once revealator-delay1'>
                             {menuItem.map((item, i) => (
                                 <Tab className='icon-box' key={i}>
