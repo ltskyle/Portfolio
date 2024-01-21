@@ -37,29 +37,31 @@ const Hero = () => {
                             width={300}
                             height={300}
                         />
-                        <h1
-                            id='home-name'
-                            className='text-uppercase poppins-font'
-                        >
-                            {"I'm"} {heroContent.heroTitleName}.
-                            <span>{heroContent.heroDesignation}</span>
-                        </h1>
-                        <p className='open-sans-font'>
-                            {heroContent.heroDescriptions}
-                        </p>
-                        <div className='home-bottom-content'>
-                            <Social />
+                        <div id='home-details-wrap'>
+                            <h1
+                                id='home-name'
+                                className='text-uppercase poppins-font'
+                            >
+                                {"I'm"} {heroContent.heroTitleName}.
+                                <span>{heroContent.heroDesignation}</span>
+                            </h1>
+                            <p className='open-sans-font'>
+                                {heroContent.heroDescriptions}
+                            </p>
+                            <div className='home-bottom-content'>
+                                <Social />
+                            </div>
+                            <a
+                                className='button'
+                                href={'files/KnudsonKyleResume.pdf'}
+                                download
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <span className='button-text'>Download CV</span>
+                                <span className='button-icon fa fa-download'></span>
+                            </a>
                         </div>
-                        <a
-                            className='button'
-                            href={'files/KnudsonKyleResume.pdf'}
-                            download
-                            target='_blank'
-                            rel='noreferrer'
-                        >
-                            <span className='button-text'>Download CV</span>
-                            <span className='button-icon fa fa-download'></span>
-                        </a>
                     </div>
                 </div>
             </div>
