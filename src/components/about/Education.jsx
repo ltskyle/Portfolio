@@ -21,7 +21,7 @@ const educationContent = [
         degree: 'DIPLOMA ',
         institute: 'LONG COUNTY HIGH SCHOOL',
         details: `Graduated with honors and was a member of Beta Club`,
-        logo: '/assets/img/logos/lc.jpg',
+        logo: '/assets/img/logos/pl.jpg',
     },
 ]
 
