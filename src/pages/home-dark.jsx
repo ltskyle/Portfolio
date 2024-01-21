@@ -38,13 +38,7 @@ const HomeDark = () => {
                     <div className='header'>
                         <TabList className=' icon-menu  revealator-slideup revealator-once revealator-delay1'>
                             {menuItem.map((item, i) => (
-                                <Tab
-                                    onClick={() => {
-                                        handleScrollTop
-                                    }}
-                                    className='icon-box'
-                                    key={i}
-                                >
+                                <Tab className='icon-box' key={i}>
                                     <i className={`fa ${item.icon}`}></i>
                                     <h2>{item.menuName}</h2>
                                 </Tab>
@@ -55,7 +49,12 @@ const HomeDark = () => {
 
                     <div className='tab-panel_list'>
                         {/* Hero Content Starts */}
-                        <TabPanel className='home '>
+                        <TabPanel
+                            className='home '
+                            onClick={() => {
+                                handleScrollTop
+                            }}
+                        >
                             <div
                                 className='container-fluid main-container container-home p-0 g-0'
                                 data-aos='fade-up'
@@ -68,7 +67,12 @@ const HomeDark = () => {
                         {/* Hero Content Ends */}
 
                         {/* About Content Starts */}
-                        <TabPanel className='about'>
+                        <TabPanel
+                            className='about'
+                            onClick={() => {
+                                handleScrollTop
+                            }}
+                        >
                             <div data-aos='fade-up' data-aos-duration='1200'>
                                 <div className='title-section text-start text-sm-center'>
                                     <h1>
@@ -83,7 +87,12 @@ const HomeDark = () => {
                         {/* About Content Ends */}
 
                         {/* Portfolio Content Starts */}
-                        <TabPanel className='portfolio professional'>
+                        <TabPanel
+                            className='portfolio professional'
+                            onClick={() => {
+                                handleScrollTop
+                            }}
+                        >
                             <div
                                 className='title-section text-start text-sm-center'
                                 data-aos='fade-up'
