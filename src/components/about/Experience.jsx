@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import uaLogo from '../../../public/assets/img/logos/ua.jpg'
+import plLogo from '../../../public/assets/img/logos/pl.jpg'
+import dqLogo from '../../../public/assets/img/logos/dq.jpg'
 
 const experienceContent = [
     {
@@ -7,21 +10,21 @@ const experienceContent = [
         position: ' Programming Teaching Assistant',
         companyName: 'UA MIS',
         details: `  Facilitate instruction in C# programming, providing technical evaluations and support to over 100 students each semester`,
-        logo: '/assets/img/logos/ua.jpg',
+        logo: uaLogo,
     },
     {
         year: '2023 - 2023',
         position: ' Business Systems Analyst',
         companyName: 'Protective Life',
         details: `Spearheaded system requirement compilation and communication, efficiently facilitating the transition of over 500,000 policies`,
-        logo: '/assets/img/logos/pl.jpg',
+        logo: plLogo,
     },
     {
         year: '2020 - 2023',
         position: 'Assistant Area Manager',
         companyName: 'Dairy Queen',
         details: `Supported General Managers by overseeing operations, facilitating streamlined processes, and achieving performance metrics`,
-        logo: '/assets/img/logos/dq.jpg',
+        logo: dqLogo,
     },
 ]
 

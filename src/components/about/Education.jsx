@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import uaLogo from '../../../public/assets/img/logos/ua.jpg'
+import lcLogo from '../../../public/assets/img/logos/lc.jpg'
 
 const educationContent = [
     {
@@ -7,14 +9,14 @@ const educationContent = [
         degree: 'MASTERS DEGREE',
         institute: 'THE UNIVERSITY OF ALABAMA',
         details: `  Specializing in Management Information Systems with a concentration in Solutions Delivery`,
-        logo: '/assets/img/logos/ua.jpg',
+        logo: uaLogo,
     },
     {
         year: 'CURRENT',
         degree: 'BACHELORS DEGREE',
         institute: 'THE UNIVERSITY OF ALABAMA',
         details: `Majoring in Management Information Systems in the Accelerated Masters Program`,
-        logo: '/assets/img/logos/ua.jpg',
+        logo: uaLogo,
     },
     {
         year: '2019',
