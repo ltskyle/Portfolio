@@ -1478,6 +1478,13 @@ ul.social li a {
         text-align: center;
     }
 
+    #social {
+        // display: block;
+        width: 50%; /* Define a specific width */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #menuToggle {
         display: inline-block;
         position: fixed;

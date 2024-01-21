@@ -10,7 +10,7 @@ const SocialShare = [
 
 const Social = () => {
     return (
-        <ul className='social list-unstyled pt-1 mb-5'>
+        <ul className='social list-unstyled pt-1 mb-5' id='social'>
             {SocialShare.map((val, i) => (
                 <li key={i}>
                     <a href={val.link} target='_blank' rel='noreferrer'>
