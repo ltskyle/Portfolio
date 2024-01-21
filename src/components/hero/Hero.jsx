@@ -4,6 +4,7 @@ import Modal from 'react-modal'
 import cancelImg from '../../../public/assets/img/cancel.svg'
 import AboutMain from '../about'
 import Image from 'next/image'
+import Social from '../Social'
 
 const heroContent = {
     heroImage: '/assets/img/hero/dark.jpg',
@@ -28,7 +29,7 @@ const Hero = () => {
                     style={{ backgroundImage: `url(${heroContent.heroImage})` }}
                 ></div>
                 <div className='col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start'>
-                    <div>
+                    <div className='home-content'>
                         <Image
                             src={heroContent.heroMobileImage}
                             className='img-fluid main-img-mobile d-sm-block d-lg-none'
@@ -46,6 +47,9 @@ const Hero = () => {
                         <p className='open-sans-font'>
                             {heroContent.heroDescriptions}
                         </p>
+                        <div className='home-bottom-content'>
+                            <Social />
+                        </div>
                         <a
                             className='button'
                             href={'files/KnudsonKyleResume.pdf'}

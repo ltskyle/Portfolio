@@ -1132,28 +1132,49 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 body.light .contact .custom-span-contact a {
     color: #666;
 }
-.contact ul.social {
-    margin-left: -5px;
+ul.social {
+    list-style-type: none; /* Remove default list styling */
+    margin-left: 0; /* Override negative margin if not required */
     padding-top: 15px !important;
+    padding-left: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align the items horizontally */
+    align-items: center; /* Center align the items vertically */
 }
 
-.contact ul.social li {
-    display: inline-block;
+ul.social li {
+    margin: 0 6px; /* Control spacing between icons */
 }
 
-.contact ul.social li a {
-    display: inline-block;
+ul.social li a {
+    display: flex; /* Use flexbox for a tag to center content */
+    justify-content: center; /* Horizontally center the content inside the anchor tag */
+    align-items: center; /* Vertically center the content inside the anchor tag */
     height: 40px;
     width: 40px;
-    line-height: 42px;
-    text-align: center;
+    // text-align: center;
     color: #fff;
     transition: 0.3s;
     font-size: 17px;
-    margin: 0 6px;
     background: #2b2a2a;
     border-radius: 50%;
+    text-decoration: none; /* Remove underline from links */
 }
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left in a column layout */
+}
+
+.home-bottom-content {
+    display: flex;
+    align-items: center; /* Aligns items horizontally */
+    justify-content: flex-start; /* Aligns items to the left */
+    gap: 15px; /* Provides space between social icons and button */
+    flex-wrap: wrap; /* Allows items to wrap to next line on small screens */
+}
+
 /* Form */
 .contact .contactform input[type='text'],
 .contact .contactform input[type='email'] {
