@@ -7,8 +7,6 @@ import SEO from '../components/Seo'
 import Portfolio from '../components/portfolio/Portfolio'
 import Address from '../components/Address'
 import Social from '../components/Social'
-import Contact from '../components/Contact'
-import Blog from '../components/blog/Blog'
 import SwitchDark from '../components/switch/SwitchDark'
 
 const menuItem = [
@@ -21,6 +19,14 @@ const HomeDark = () => {
     useEffect(() => {
         document.querySelector('body').classList.remove('rtl')
     }, [])
+
+    function handleScrollTop() {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth', // Optional: for smooth scrolling
+        })
+    }
     return (
         <Wrapper>
             <SEO pageTitle={'Home Dark'} />
@@ -32,7 +38,13 @@ const HomeDark = () => {
                     <div className='header'>
                         <TabList className=' icon-menu  revealator-slideup revealator-once revealator-delay1'>
                             {menuItem.map((item, i) => (
-                                <Tab className='icon-box' key={i}>
+                                <Tab
+                                    onClick={() => {
+                                        handleScrollTop
+                                    }}
+                                    className='icon-box'
+                                    key={i}
+                                >
                                     <i className={`fa ${item.icon}`}></i>
                                     <h2>{item.menuName}</h2>
                                 </Tab>
