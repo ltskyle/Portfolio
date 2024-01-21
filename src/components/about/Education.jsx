@@ -7,14 +7,14 @@ const educationContent = [
         degree: 'MASTERS DEGREE',
         institute: 'THE UNIVERSITY OF ALABAMA',
         details: `  Specializing in Management Information Systems with a concentration in Solutions Delivery`,
-        logo: '/assets/img/logos/ua.png',
+        logo: '/assets/img/logos/ua.jpg',
     },
     {
         year: 'CURRENT',
         degree: 'BACHELORS DEGREE',
         institute: 'THE UNIVERSITY OF ALABAMA',
         details: `Majoring in Management Information Systems in the Accelerated Masters Program`,
-        logo: '/assets/img/logos/ua.png',
+        logo: '/assets/img/logos/ua.jpg',
     },
     {
         year: '2019',
