@@ -23,7 +23,6 @@ const HomeDark = () => {
     function handleScrollTop() {
         window.scrollTo({
             top: 0,
-            left: 0,
             behavior: 'smooth', // Optional: for smooth scrolling
         })
     }
@@ -38,7 +37,11 @@ const HomeDark = () => {
                     <div className='header'>
                         <TabList className=' icon-menu  revealator-slideup revealator-once revealator-delay1'>
                             {menuItem.map((item, i) => (
-                                <Tab className='icon-box' key={i}>
+                                <Tab
+                                    className='icon-box'
+                                    key={i}
+                                    onClick={handleScrollTop}
+                                >
                                     <i className={`fa ${item.icon}`}></i>
                                     <h2>{item.menuName}</h2>
                                 </Tab>
@@ -49,7 +52,7 @@ const HomeDark = () => {
 
                     <div className='tab-panel_list'>
                         {/* Hero Content Starts */}
-                        <TabPanel className='home ' onClick={handleScrollTop}>
+                        <TabPanel className='home '>
                             <div
                                 className='container-fluid main-container container-home p-0 g-0'
                                 data-aos='fade-up'
@@ -62,7 +65,7 @@ const HomeDark = () => {
                         {/* Hero Content Ends */}
 
                         {/* About Content Starts */}
-                        <TabPanel className='about' onClick={handleScrollTop}>
+                        <TabPanel className='about'>
                             <div data-aos='fade-up' data-aos-duration='1200'>
                                 <div className='title-section text-start text-sm-center'>
                                     <h1>
@@ -77,10 +80,7 @@ const HomeDark = () => {
                         {/* About Content Ends */}
 
                         {/* Portfolio Content Starts */}
-                        <TabPanel
-                            className='portfolio professional'
-                            onClick={handleScrollTop}
-                        >
+                        <TabPanel className='portfolio professional'>
                             <div
                                 className='title-section text-start text-sm-center'
                                 data-aos='fade-up'
