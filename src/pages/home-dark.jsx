@@ -49,12 +49,7 @@ const HomeDark = () => {
 
                     <div className='tab-panel_list'>
                         {/* Hero Content Starts */}
-                        <TabPanel
-                            className='home '
-                            onClick={() => {
-                                handleScrollTop
-                            }}
-                        >
+                        <TabPanel className='home ' onClick={handleScrollTop}>
                             <div
                                 className='container-fluid main-container container-home p-0 g-0'
                                 data-aos='fade-up'
@@ -67,12 +62,7 @@ const HomeDark = () => {
                         {/* Hero Content Ends */}
 
                         {/* About Content Starts */}
-                        <TabPanel
-                            className='about'
-                            onClick={() => {
-                                handleScrollTop
-                            }}
-                        >
+                        <TabPanel className='about' onClick={handleScrollTop}>
                             <div data-aos='fade-up' data-aos-duration='1200'>
                                 <div className='title-section text-start text-sm-center'>
                                     <h1>
@@ -89,9 +79,7 @@ const HomeDark = () => {
                         {/* Portfolio Content Starts */}
                         <TabPanel
                             className='portfolio professional'
-                            onClick={() => {
-                                handleScrollTop
-                            }}
+                            onClick={handleScrollTop}
                         >
                             <div
                                 className='title-section text-start text-sm-center'
