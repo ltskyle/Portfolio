@@ -31,7 +31,7 @@ const HomeDark = () => {
         <Wrapper>
             <SEO pageTitle={'Home Dark'} />
 
-            <div className='yellow' ref={ref}>
+            <div className='yellow' ref={topRef}>
                 <SwitchDark />
                 {/* End Switcher */}
                 <Tabs>
