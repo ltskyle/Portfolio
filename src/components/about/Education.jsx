@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import uaLogo from '../../../assets/img/logos/ua.jpg'
-import lcLogo from '../../../assets/img/logos/lc.jpg'
+import uaLogo from '/assets/img/logos/ua.jpg'
+import lcLogo from '/assets/img/logos/lc.jpg'
 
 const educationContent = [
     {
