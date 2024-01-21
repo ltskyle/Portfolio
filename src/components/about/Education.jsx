@@ -30,7 +30,7 @@ const Education = () => {
             {educationContent.map((val, i) => (
                 <li key={i}>
                     <div className='icon'>
-                        <img src={val.logo} alt={`${val.institute} Logo`} />
+                        <Image src={val.logo} alt={`${val.institute} Logo`} />
                     </div>
                     <span className='time open-sans-font text-uppercase'>
                         {val.year}
