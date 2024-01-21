@@ -23,22 +23,29 @@ const HomeDark = () => {
     }, [])
 
     function handleScrollTop() {
-        if (topRef.current) {
-            topRef.current.scrollIntoView({ behavior: 'smooth' })
-        }
+        setTimeout(() => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            })
+        }, 100)
     }
     return (
         <Wrapper>
             <SEO pageTitle={'Home Dark'} />
 
-            <div className='yellow' ref={topRef}>
+            <div className='yellow'>
                 <SwitchDark />
                 {/* End Switcher */}
                 <Tabs>
                     <div className='header'>
                         <TabList className=' icon-menu  revealator-slideup revealator-once revealator-delay1'>
                             {menuItem.map((item, i) => (
-                                <Tab className='icon-box' key={i}>
+                                <Tab
+                                    className='icon-box'
+                                    key={i}
+                                    onClick={handleScrollTop}
+                                >
                                     <i className={`fa ${item.icon}`}></i>
                                     <h2>{item.menuName}</h2>
                                 </Tab>
