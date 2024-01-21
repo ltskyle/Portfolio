@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import uaLogo from '/public/assets/img/logos/ua.jpg'
-import plLogo from '/public/assets/img/logos/pl.jpg'
-import dqLogo from '/public/assets/img/logos/dq.jpg'
+import uaLogo from '../../../public/assets/img/logos/ua.jpg'
+import plLogo from '../../../public/assets/img/logos/pl.jpg'
+import dqLogo from '../../../public/assets/img/logos/dq.jpg'
 
 const experienceContent = [
     {
