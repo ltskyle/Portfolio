@@ -30,6 +30,7 @@ const Education = () => {
         <ul>
             {educationContent.map((val, i) => (
                 <li key={i}>
+                    console.log(`${val.logo}`)
                     <Image
                         className='icon'
                         src={val.logo}
