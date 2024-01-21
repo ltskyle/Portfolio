@@ -2,6 +2,10 @@
     font-size: 38px;
 }
 
+#page-title {
+    font-size: 60px;
+}
+
 @media (max-width: 767px) {
     #home-name {
         font-size: 30px;

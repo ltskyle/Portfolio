@@ -72,10 +72,10 @@ const HomeDark = () => {
                         <TabPanel className='about'>
                             <div data-aos='fade-up' data-aos-duration='1200'>
                                 <div className='title-section text-start text-sm-center'>
-                                    <h1>
+                                    <h1 id='page-title'>
                                         ABOUT <span>ME</span>
                                     </h1>
-                                    <span className='title-bg'>ABOUT ME</span>
+                                    {/* <span className='title-bg'>ABOUT ME</span> */}
                                 </div>
                                 {/* End title */}
                                 <AboutMain />
@@ -93,7 +93,7 @@ const HomeDark = () => {
                                 <h1>
                                     my <span>portfolio</span>
                                 </h1>
-                                <span className='title-bg'>MY PORTFOLIO</span>
+                                {/* <span className='title-bg'>MY PORTFOLIO</span> */}
                             </div>
                             {/* End title */}
                             <Portfolio />
