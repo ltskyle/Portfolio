@@ -56,7 +56,7 @@ const PortfolioData = [
     {
         id: 4,
         type: 'ACCESS',
-        image: Image1,
+        image: Image4,
         tag: ['ca'],
         delayAnimation: '300',
         modalDetails: [
