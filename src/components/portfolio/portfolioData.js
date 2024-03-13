@@ -53,7 +53,7 @@ const PortfolioData = [
     },
     {
         id: 4,
-        type: 'local project',
+        type: 'ACCESS',
         image: Image4,
         tag: ['ca'],
         delayAnimation: '300',
