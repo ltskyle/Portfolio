@@ -8,6 +8,7 @@ import Image7 from '../../../public/assets/img/portfolio/project-7.jpg'
 import Image8 from '../../../public/assets/img/portfolio/project-8.jpg'
 import Image9 from '../../../public/assets/img/portfolio/project-9.jpg'
 
+
 const PortfolioData = [
     {
         id: 1,
@@ -54,7 +55,7 @@ const PortfolioData = [
     {
         id: 4,
         type: 'ACCESS',
-        image: Image4,
+        image: '../../../public/assets/img/portfolio/project-4.jpg',
         tag: ['ca'],
         delayAnimation: '300',
         modalDetails: [
