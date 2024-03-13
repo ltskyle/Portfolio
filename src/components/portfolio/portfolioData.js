@@ -1,7 +1,7 @@
 import Image1 from '../../../public/assets/img/portfolio/project-1.jpg'
 import Image2 from '../../../public/assets/img/portfolio/project-2.jpg'
 import Image3 from '../../../public/assets/img/portfolio/project-3.jpg'
-import Image4 from '../../../public/assets/img/portfolio/project-4.jpg'
+import Image4 from '../../../public/project-4.jpg'
 
 import Image5 from '../../../public/assets/img/portfolio/project-5.jpg'
 import Image6 from '../../../public/assets/img/portfolio/project-6.jpg'
