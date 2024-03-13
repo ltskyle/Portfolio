@@ -51,22 +51,20 @@ const PortfolioData = [
             },
         ],
     },
-    // {
-    //     id: 4,
-    //     type: 'local project',
-    //     image: Image4,
-    //     tag: ['logo', 'video'],
-    //     delayAnimation: '0',
-    //     modalDetails: [
-    //         {
-    //             project: 'video',
-    //             client: 'Videohive',
-    //             language: ' Adobe After Effects',
-    //             preview: 'www.videohive.net',
-    //             link: 'https://www.videohive.net',
-    //         },
-    //     ],
-    // },
+    {
+        id: 4,
+        type: 'local project',
+        image: Image4,
+        tag: ['ca'],
+        delayAnimation: '300',
+        modalDetails: [
+            {
+                project: 'ACCESS',
+                client: 'OTIDE',
+                language: 'ASP.NET MVC, SQL',
+            },
+        ],
+    },
     // {
     //     id: 5,
     //     type: 'saas project',
