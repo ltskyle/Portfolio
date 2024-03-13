@@ -42,7 +42,7 @@ const ModalFour = ({ modalId, setGetModal }) => {
                         </span>
                       </div>
                       <div className="col-12 col-sm-6 mb-2">
-                        <i className="fa fa-external-link pr-2"></i>
+                        {/* <i className="fa fa-external-link pr-2"></i>
                         Preview :{" "}
                         <a
                           className="preview-link"
@@ -51,30 +51,24 @@ const ModalFour = ({ modalId, setGetModal }) => {
                           href={details.link}
                         >
                           {details.preview}
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   );
                 })}
               </div>
-              <figure className="modal__img">
-                {/* <img src={item.image} alt="portfolio project demo" /> */}
-                <video
-                  id="video"
-                  className="responsive-video"
-                  controls
-                  poster={item.image}
-                >
-                  <source src={'/assets/img/portfolio/video.mp4'} type="video/mp4" />
-                  {/* <source src="img/" type="video/mp4" /> */}
-                </video>
+              <figure className='modal__img'>
+                  <Image
+                      src={item.image}
+                      alt='portfolio project demo'
+                  />
               </figure>
 
               <button
                 className="close-modal"
                 onClick={() => setGetModal(false)}
               >
-                <Image src={CloseImg} alt="portfolio project demo" />
+                <Image src={CloseImg} alt="ACCESS" />
               </button>
             </div>
           );
